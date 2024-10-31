@@ -78,6 +78,7 @@
         background-color: #db8556;
         margin-bottom: 1em;
         padding-left: 5em;
+        padding-right: 5em;
     }
     
     .name{
@@ -137,7 +138,7 @@
     hr{
         display:none;
     }
-    
+
     figure{
         display:block;  
     }
