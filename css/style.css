@@ -52,7 +52,7 @@
     /* Reviews */
     
     #reviews{
-        font-size: 200%;
+        font-size: 150%;
         text-align: left;
         margin-left: auto;
         margin-right: auto;
@@ -62,13 +62,6 @@
         border:10px solid brown;
         border-radius: 50px;
         margin-bottom: 1em;
-        background-image: url(../img/CLOUD\ BACKGROUND.jpg);
-    }
-
-    #reviews h2 {
-        color: whitesmoke;
-        font-size: 300%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     .review { 
@@ -76,9 +69,8 @@
         border-radius: 30px;
         border-style: inset;
         background-color: #db8556;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
         padding-left: 5em;
-        padding-right: 5em;
     }
     
     .name{
@@ -123,6 +115,21 @@
     figure img {
         width: 100%;
     }
+
+    #reviews h2 {
+        justify-content: left;
+        
+    }
+
+    .review{
+        display: grid;
+        justify-content: left;
+    }
+
+    .review img{
+        display: block;
+    }
+
 }
 /* Desktop Screen Size */
 @media screen and (min-width: 100em) {
@@ -137,6 +144,10 @@
 
     hr{
         display:none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
     }
 
     figure{
